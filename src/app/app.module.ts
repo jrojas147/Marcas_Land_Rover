@@ -2,8 +2,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule, LOCALE_ID } from '@angular/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import localeEs from '@angular/common/locales/es';
-import { registerLocaleData } from '@angular/common';
+import localeEs from '@angular/common/locales/es';//
+import { registerLocaleData } from '@angular/common';//
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -16,7 +16,7 @@ import { PieComponent } from './componentes/shared/pie/pie.component';
 
 /* Externos */
 import { MaterialModule } from './material/material.module';
-import { CurrencyMaskModule } from 'ng2-currency-mask';
+import { CurrencyMaskModule } from 'ng2-currency-mask';//
 import { ModalTycComponent } from './componentes/modal-tyc/modal-tyc.component';
 import { HttpClientModule } from '@angular/common/http';
 
